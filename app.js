@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.use((req, res) => {
-    res.send('Hello world')
+    res.send('Hii ren :D. This will be fauxbbage!')
 })
 
 const PORT = process.env.PORT || 3000
